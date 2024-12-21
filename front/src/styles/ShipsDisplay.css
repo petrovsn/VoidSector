@@ -1,0 +1,18 @@
+.ShipsDisplay{
+  display: flex;
+  flex-direction: row;
+}
+
+.ShipCard{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+
+.ShipCard div{
+  display: flex;
+  flex-direction: column;
+}

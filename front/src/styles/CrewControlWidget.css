@@ -1,0 +1,20 @@
+.RepairTeamWidget img{
+ height: 60px;
+ width: 60px;
+ border: 1px solid black;
+ margin-right: 10px;
+}
+
+.RepairTeamWidget{
+ display: flex;
+ flex-direction: row;
+}
+.RepairTeamWidget button{
+ height: 25px;
+ width: 25px;
+}
+
+.RepairTeamWidget_data{
+ display: flex;
+ flex-direction: column;
+}

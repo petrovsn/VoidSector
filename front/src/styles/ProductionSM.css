@@ -1,0 +1,48 @@
+.ProductionSM .items_section{
+ display: grid;
+ grid-template-columns: 50% 50%;
+}
+
+.ProductionSM .StockpileRaw{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ border: 1px solid black;
+ margin-bottom: 2px;
+}
+
+.ProductionSM .StockpileItems, .ProductionSM .ProductionQueueSection{
+ border: 1px solid black;
+ display: flex;
+ flex-direction: column;
+ height: 160px;
+}
+
+.ProductionSM .StockpileItems{
+ overflow: scroll;
+}
+
+.ProductionSM .StockpileItems button{
+ width: 70%
+}
+
+.ProductionQueueSection{
+ display: flex;
+ flex-direction: column;
+}
+
+.ProductionQueueSection>button{
+ width:95%;
+}
+
+
+.ProductionQueueSection .productionQueue{
+ display: flex;
+ flex-direction: column;
+ overflow: scroll;
+ height: 100%;
+}
+
+.ProductionQueueSection .productionQueue button{
+ width:95%;
+}

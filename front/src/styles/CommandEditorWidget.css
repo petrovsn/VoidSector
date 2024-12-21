@@ -1,0 +1,26 @@
+.CommandEditorWidget{
+ display: flex;
+ flex-direction: column;
+ border: 1px solid black;
+ padding: 5px;
+}
+
+.commandEditorUnit{
+ display: flex;
+ flex-direction: row;
+}
+
+.commandParamsSection{
+ display: flex;
+ flex-direction: column;
+ border: 1px solid black;
+ padding: 5px;
+}
+.commandParamsOption{
+ display: flex;
+ flex-direction: row;
+}
+
+.commandParamsOption>label{
+ margin-right: 5px;
+}

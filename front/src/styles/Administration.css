@@ -1,0 +1,40 @@
+.Administration {
+ display: flex;
+ flex-direction: column;
+ border: solid 1px;
+ width: 100%;
+ padding-left: 20px;
+ padding-right: 20px;
+ height: 95vh;
+}
+
+.SystemsSection {
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+}
+
+.SystemsSectionPart{
+ width: 50%;
+}
+
+.AdminControlPanel{
+ display: flex;
+ flex-direction: column;
+ border: 1px solid black;
+ margin-bottom: 5px;
+}
+
+.solarFlare_control{
+  display: flex;
+  flex-direction: row;
+}
+
+.solarFlare_control *{
+ margin-right: 10px;
+}
+
+.solarFlare_control button{
+ width: 150px;
+ height: 40px;
+}

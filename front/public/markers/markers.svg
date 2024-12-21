@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+  width="210mm"
+  height="297mm"
+  viewBox="0 0 210 297"
+  version="1.1"
+  id="svg5"
+  inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+  sodipodi:docname="markers.svg"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+ <sodipodi:namedview
+   id="namedview7"
+   pagecolor="#000000"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:document-units="mm"
+   showgrid="true"
+   inkscape:zoom="0.74029882"
+   inkscape:cx="570.04008"
+   inkscape:cy="975.28185"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="layer1">
+  <inkscape:grid
+    units="mm"
+    type="xygrid"
+    id="grid1872" />
+ </sodipodi:namedview>
+ <defs
+   id="defs2" />
+ <g
+   inkscape:label="Слой 1"
+   inkscape:groupmode="layer"
+   id="layer1">
+  <path
+    style="fill:none;stroke:#ffffff;stroke-width:3.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+    d="m 50,50 c 100,0 100,0 100,0 v 0"
+    id="path892"
+    inkscape:export-filename="C:\Users\ktess\WorkFolder\VoidSector\debug\front01\public\markers\ship.png"
+    inkscape:export-xdpi="96"
+    inkscape:export-ydpi="96" />
+  <path
+    style="fill:none;stroke:#ffffff;stroke-width:3.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+    d="m 50,50 c 50,-89.999999 50,-89.999999 50,-89.999999 C 150,50 150,50 150,50"
+    id="path894"
+    inkscape:export-filename="C:\Users\ktess\WorkFolder\VoidSector\debug\front01\public\markers\ship.png"
+    inkscape:export-xdpi="96"
+    inkscape:export-ydpi="96" />
+  <path
+    style="fill:none;stroke:#ffffff;stroke-width:3.20257;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:0.27309236"
+    d="m 140,69.999999 c 0,0 0,0 -70.000001,0 C 60,70 60,70 60,70 c 40,70 40,70 40,70"
+    id="path1089"
+    inkscape:export-filename="C:\Users\ktess\WorkFolder\VoidSector\debug\front01\public\markers\projectile.png"
+    inkscape:export-xdpi="96"
+    inkscape:export-ydpi="96" />
+  <path
+    style="fill:none;stroke:#ffffff;stroke-width:3.20257;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:0.27309236"
+    d="M 140,69.999999 C 100,140 100,140 100,140"
+    id="path1091"
+    inkscape:export-filename="C:\Users\ktess\WorkFolder\VoidSector\debug\front01\public\markers\projectile.png"
+    inkscape:export-xdpi="96"
+    inkscape:export-ydpi="96" />
+  <ellipse
+    style="fill:none;stroke:#ffffff;stroke-width:0.49214;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+    id="path2113"
+    cx="56.543316"
+    cy="148.65163"
+    inkscape:export-filename="C:\Users\ktess\WorkFolder\VoidSector\debug\front01\public\markers\circle.png"
+    inkscape:export-xdpi="96"
+    inkscape:export-ydpi="96"
+    rx="32.040581"
+    ry="38.831196" />
+  <rect
+    style="fill:none;stroke:#ffffff;stroke-width:0.146;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+    id="rect1757"
+    width="40"
+    height="20"
+    x="90"
+    y="250" />
+ </g>
+</svg>

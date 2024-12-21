@@ -1,0 +1,25 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+  <div>
+    <label>hospital: {{hospital.units}}/{{hospital.capacity}}</label>
+  </div>
+  {% for role, state in roles.items() %}
+  <div style="display: flex; flex-direction: column;">
+    <label><b>{{role}}</b></label>
+    <label>HP: {{state.HP}}</label>
+    <label>MP: {{state.MP}}</label>
+    <label>Можно лечить: {{state.can_be_cured}}</label>
+    <p></p>
+  </div>
+
+
+   
+  {% endfor %}
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+.BodiesSelector{
+
+
+
+  
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+}
+
+.BodiesSelector_section{
+ display: grid;
+
+ overflow: scroll;
+ height: 200px;
+
+}
+
+.BodyEditor{
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+}
+
+.FileLoader{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border: 1px solid black;
+ width: 150px;
+}
+
+.FileLoader button{
+ width: 100%;
+}
+
+.FileLoader input{
+ width: 100%;
+}
+
+.FileLoader .map_selector{
+ display: flex;
+ flex-direction: column;
+ height: 500px;
+ overflow: scroll;
+ overflow-x: hidden;
+ width: 150px;
+}
+
+.map_selector .selected{
+ text-decoration: underline;
+}
+
+.map_selector label{
+ text-overflow: ellipsis;
+ white-space:nowrap;
+ width: 100%
+}
+
+
+
+
+.FileLoader .map_selector label:hover{
+ color: red
+}
+
+.BodiesInteractorSection{
+ width: 100%;
+ border: 1px solid red;
+}
+
+.bodySelectorWidget{
+ display: flex;
+ flex-direction: column;
+ border: 1px solid black;
+ padding: 5px;
+ width: fit-content;
+ height: fit-content;
+}

@@ -1,0 +1,42 @@
+
+.EngineerControllerWidget{
+ display: flex;
+ flex-direction: column;
+
+
+
+
+  
+}
+
+.OverviewWidget{
+ display: flex;
+ flex-direction: row;
+}
+.SystemOvervieweWidget{
+ display: flex;
+ flex-direction: column;
+}
+
+.teamAssignController{
+ display: flex;
+ flex-direction: column;
+}
+.teamAssignBtnBlock{
+ display: grid;
+ grid-template-columns: 25% 25% 25% 25%
+}
+
+.ShipOvervieweWidget{
+ margin-right: 10px;
+}
+
+.EngineerSystemsLayer{
+ display: grid;
+ grid-template-columns: 50% 50%;
+ border: 1px solid black;
+
+
+
+  
+}

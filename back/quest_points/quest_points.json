@@ -1,0 +1,53 @@
+{
+    "1_SiroccoInstallsQuantumDetector": {
+        "initiator": "Sirocco",
+        "type": "interact",
+        "params": {
+            "target": "Selena"
+        }
+    },
+    "2_VanEicFiredByEMP": {
+        "initiator": "Sirocco",
+        "type": "damage2target",
+        "params": {
+            "target": "VanEick",
+            "damage_type": "emp"
+        },
+        "depends_on": "1_SiroccoInstallsQuantumDetector"
+    },
+    "2__VanEicDestroyed": {
+        "initiator": "VanEick",
+        "type": "quantumshadow_defeat",
+        "params": {
+        },
+        "depends_on": "2_VanEicFiredByEMP"
+    },
+    
+    "3_VanEicSet2Phase2": {
+        "initiator": "",
+        "type": "",
+        "params": {
+
+        }
+    },
+    "4_DestroyWormHole": {
+        "initiator": "",
+        "type": "",
+        "params": {
+
+        }
+    },
+    "5_ResurrectVanEick": {
+        "initiator": "",
+        "type": "",
+        "params": {
+
+        }
+    },
+    "6_PingFangDestruction": {
+        "initiator": "PingFang",
+        "type": "station_defeat",
+        "params": {
+        }
+    }
+}

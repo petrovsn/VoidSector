@@ -1,0 +1,76 @@
+
+.LauncherController{
+ display: flex;
+ flex-direction: column;
+ border: solid 1px;
+ width: 100%;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-bottom: 10px;
+ height: 360px;
+ }
+
+ .LauncherShaftController{
+ padding: 5px;
+ display: flex;
+ flex-direction: column;
+ border: solid 1px;
+ width: 100%;
+ height: 165px;
+ align-items: flex-start;
+ }
+
+ .LauncherShaftController>button{
+ width: 100%;
+ height: 30px;
+ }
+
+ .shaftsSection{
+ display: grid;
+ grid-template-columns: 33% 33% 34%;
+ width: 100%;
+
+
+
+  
+ }
+
+ .LauncherShaftController_selected{
+ outline: 4px solid red;
+ }
+
+ .projectile_param_widget{
+ width: 150px;
+ }
+
+ .LauncherShaftController select{
+ width: 100%;
+ }
+
+ .LauncherShaftController_shaft_progress{
+ display: flex;
+ flex-direction: row;
+ height: fit-content;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ padding-top: 2px;
+ padding-bottom: 2px;
+ }
+
+
+ .LauncherShaftController_shaft_progress {
+ width: 100%;
+ }
+
+ .LauncherShaftController_shaft_progress progress{
+ width: 100%;
+ }
+
+ .LauncherShaftController_shaft_progress_ready{
+ background-color: green;
+ }
+
+ .LauncherShaftController_shaft_progress_in_progres{
+ background-color: orange;
+
+ }

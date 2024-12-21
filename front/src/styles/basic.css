@@ -1,0 +1,45 @@
+button{
+ width: 100px;
+ margin: 1px;
+}
+
+.div_vertical{
+ display: flex;
+ flex-direction: column;
+}
+
+.NumericControlWidjet{
+ display: flex;
+ flex-direction: row;
+}
+
+
+
+.AccelerationController{
+ display: flex;
+ flex-direction: column;
+ border: 1px solid black;
+ padding: 5px;
+ width: fit-content;
+}
+.AccelerationController span{
+ display: flex;
+ flex-direction: row;
+ justify-content:end
+}
+
+
+
+.AccelerationHeatbar progress{
+ background-color: rgb(255, 255, 255);
+}
+
+.AccelerationHeatbar progress::-webkit-progress-bar {
+ background-color: #5a8fc489;
+}
+
+.AccelerationHeatbar progress::-webkit-progress-value {
+ background-color: #d72717;
+}
+
+

@@ -1,0 +1,39 @@
+.ProjectileBuilderWidget{
+ display: flex;
+ flex-direction: row;
+ height: 250px;
+ width: 100%;
+
+
+
+
+  
+}
+.ProjectileBuilderWidget .components_selector{
+ width: 50%
+
+
+
+  
+}
+
+.ProjectileBuilderWidget .components_selector .component_controller{
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+ border: 1px solid black;
+ height: 30px;
+ align-items: center;
+ justify-content: end;
+}
+
+.ProjectileBuilderWidget .components_selector .component_controller button{
+ height: 25px;
+ width: 25px;
+}
+
+.DesignSection{
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+}

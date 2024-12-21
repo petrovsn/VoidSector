@@ -1,0 +1,172 @@
+
+.PilotStation{
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+ height: calc(100% - 50px);
+
+
+
+  
+
+
+
+  
+}
+
+.PilotStationControlSection{
+ display: flex;
+ flex-direction: column;
+ margin-left: 10px;
+ padding: 5px;
+ border: 1px solid black;
+ width: 100%;
+
+
+
+
+  
+}
+
+.SystemsLayer{
+ display: grid;
+ grid-template-columns: 50% 50%;
+ width: 100%;
+
+ border: 1px solid black;
+ margin-bottom: 5px;
+ padding: 5px;
+ overflow: scroll;
+}
+
+.SystemsLayerShort{
+ height: 40% !important; 
+}
+
+.SystemControlWidget{
+ display: flex;
+ flex-direction: column;
+ overflow: scroll;
+ border: 1px solid black
+}
+
+.SystemsLayer .SystemControlWidget{
+ height: 200px;
+}
+
+.ControlLayer{
+ display: flex;
+ flex-direction: column;
+
+}
+
+.Stockpile{
+ display: flex;
+ flex-direction: column;
+ border: 1px solid black;
+ margin-bottom: 5px;
+ padding: 5px;
+}
+
+.Stockpile>label>button{
+ width: fit-content;
+}
+
+.engineControlSection{
+ display: flex;
+ flex-direction: row;
+}
+
+
+.PlayersRadar{
+ display: flex;
+ flex-direction: row;
+
+
+
+  
+ border: solid 1px;
+}
+
+.PlayersRadar>.radarSection{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: black;
+}
+
+.PlayersRadar>.detectedShips{
+ display: flex;
+ flex-direction: column;
+ width:60px;
+}
+
+.PlayersRadar>.detectedShips label:hover{
+ color: red
+}
+
+.is_taking_damage_class{
+ border: 10px solid red;
+}
+
+
+
+.modal_page {
+ display: flex;
+ flex-direction: column;
+ position: fixed;
+ width: 100%;
+ height: 100%;
+ top: 0%;
+ left: 0%;
+ justify-content: center;
+ align-items: center;
+}
+
+.modalcontent {
+ width: 800px;
+ height: fit-content;
+ background: #F5F5F5;
+ border: 1px solid #95B4A9;
+ padding: 30px;
+}
+
+.ModalInfo{
+ display: flex;
+ flex-direction: column;
+}
+
+
+.PilotStation_light_MP_fatigue *{
+ opacity: 0.9;
+}
+
+.PilotStation_hard_MP_fatigue *{
+ opacity: .8;
+ border: grey
+}
+
+.PilotStation_crit_MP_fatigue *{
+ opacity: 0.0;
+ border: white
+}
+
+.CommonRadarStation{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+
+}
+
+.PilotStation_light_HP{
+    border: 5px solid orange;
+}
+
+.PilotStation_hard_HP{
+    border: 5px solid red;
+}
+
+.PilotStation_crit_HP{
+    border: 5px dashed black;
+}

@@ -1,0 +1,42 @@
+
+.plague_matrix_div{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.plague_matrix_cell{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+}
+
+.plague_matrix_zero_cell{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    color: grey;
+}
+
+.plague_matrix_health{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    color: black;
+}
+
+.plague_matrix_mental{
+    width: 50px;
+    height: 50px;
+    background-color: cyan;
+    color: black;
+}
+
+.plague_matrix_cell_marked{
+    border: solid red 2px;
+}
+
+.plague_matrix_cell_marked_green{
+    border: solid green 2px;
+}
+
